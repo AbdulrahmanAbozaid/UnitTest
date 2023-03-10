@@ -4,7 +4,7 @@
 
 ## Testing Details
 
-1. GET /getAllUsers
+1. _GET /getAllUsers_
 
 ```JS
     test("Should return status 200", async () => {
@@ -20,7 +20,7 @@
     });
 ```
 
-2. POST /register
+2. _POST /register_
 
 ```JS
       let user = {
@@ -101,7 +101,7 @@
       });
 ```
 
-3. DELETE /deleteUser/:id
+3. _DELETE /deleteUser/:id_
 
 ```JS
       it("Should return Code 404", async () => {
@@ -135,7 +135,7 @@
        }, 3000);
 ```
 
-4. PUT /updateUser/:id
+4. _PUT /updateUser/:id_
 
 ```JS
      it("Should return statusCode 200", async () => {
